@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:BuscaCep.Mobile.ViewModels"
+             x:Class="BuscaCep.Mobile.Pages.BuscaCepPage">
+
+    <ContentPage.BindingContext>
+        <viewModels:BuscaCepViewModel />
+    </ContentPage.BindingContext>
+
+    <StackLayout Padding="15,10" Spacing="5">
+        <Entry Keyboard="Numeric"
+               Placeholder="Informe o CEP"
+               Text="{Binding CEP}" />
+
+        <Button Text="Buscar" Command="{Binding BuscarCommand}" />
+
+        <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" />
+
+        <StackLayout Spacing="2" IsVisible="{Binding HasCep}" >
+            <Label Text="Logradouro" FontAttributes="Bold" />
+            <Label Text="{Binding Logradouro}"/>
+        </StackLayout>
+
+        <StackLayout Spacing="2" IsVisible="{Binding HasCep}" >
+            <Label Text="Complemento" FontAttributes="Bold" />
+            <Label Text="{Binding Complemento}" />
+        </StackLayout>
+
+        <StackLayout Spacing="2" IsVisible="{Binding HasCep}" >
+            <Label Text="Bairro" FontAttributes="Bold" />
+            <Label Text="{Binding Bairro}" />
+        </StackLayout>
+
+        <StackLayout Spacing="2" IsVisible="{Binding HasCep}" >
+            <Label Text="Localidade" FontAttributes="Bold" />
+            <Label Text="{Binding Localidade}" />
+        </StackLayout>
+
+        <StackLayout Spacing="2" IsVisible="{Binding HasCep}" >
+            <Label Text="UF" FontAttributes="Bold" />
+            <Label Text="{Binding UF}" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
