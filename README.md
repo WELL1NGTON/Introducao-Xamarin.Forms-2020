@@ -10,11 +10,15 @@ Treinamento completo e GRATUITO - Introdução Xamarin.Forms - 2020
 
 Este treinamento tem como objetivo apresentar a tecnologia Xamarin e focando no desenvolvimento com Xamarin.Forms.
 
+### Repositório do Projeto Base
+
+[GitHub Repository](https://github.com/balivo/intro-xf-2020) (MIT License)
+
 ## Instrutor
 
 ### Jefferson Balivo
 
-Links:
+#### Links
 
 - [GitHub](https://github.com/balivo)
 - [Linkedin](https://www.linkedin.com/in/balivo/)
