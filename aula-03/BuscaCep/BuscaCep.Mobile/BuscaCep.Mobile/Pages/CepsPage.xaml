@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:BuscaCep.Mobile.ViewModels"
+             x:Class="BuscaCep.Mobile.Pages.CepsPage"
+             Title="Ceps">
+
+    <ContentPage.BindingContext>
+        <viewModels:CepsViewModel />
+    </ContentPage.BindingContext>
+
+    <Grid Margin="0"
+          Padding="15,10"
+          RowSpacing="5" 
+          ColumnSpacing="0" >
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Entry 
+            Grid.Row="0" 
+            Keyboard="Numeric"
+            Placeholder="Informe o CEP"
+            Text="{Binding CEP}" />
+
+        <Button 
+            Grid.Row="1" 
+            Text="Buscar" 
+            Command="{Binding BuscarCommand}" />
+
+        <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" />
+
+        <ListView 
+            x:Name="MyListView"
+            Grid.Row="2"
+            ItemsSource="{Binding Ceps}"
+            ItemTapped="Handle_ItemTapped"
+            CachingStrategy="RecycleElement">
+
+            <!--Built in Cells-->
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding cep}" Detail="{Binding Detalhes}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+            <!--Custom View Cells-->
+            <!--
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                <ViewCell>
+                    <StackLayout>
+                    <Label Text="{Binding Text}" 
+                            Style="{DynamicResource ListItemTextStyle}" />
+                    <Label Text="{Binding Detail}" 
+                            Style="{DynamicResource ListItemDetailTextStyle}"/>
+                    </StackLayout>
+                </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            -->
+        </ListView>
+
+    </Grid>
+
+</ContentPage>

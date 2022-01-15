@@ -31,7 +31,7 @@ Este treinamento tem como objetivo apresentar a tecnologia Xamarin e focando no 
 
 - [x] [Introdução Xamarin.Forms (2020) - Aula 1](https://www.youtube.com/watch?v=LyKfU1iAUx4) 1:07:31
 - [x] [Introdução Xamarin.Forms (2020) - Aula 2](https://www.youtube.com/watch?v=onBvyhXlqY0) 1:11:32
-- [ ] [Introdução Xamarin.Forms (2020) - Aula 3](https://www.youtube.com/watch?v=wXwrs3SB3f8) 2:22:20
+- [x] [Introdução Xamarin.Forms (2020) - Aula 3](https://www.youtube.com/watch?v=wXwrs3SB3f8) 2:22:20
 - [ ] [Introdução Xamarin.Forms (2020) - Aula 4 - Live](https://www.youtube.com/watch?v=Rl6ILxMnX4o) 1:41:21
 - [ ] [Introdução Xamarin.Forms (2020) - Aula 5 - Live](https://www.youtube.com/watch?v=ESHrmDyvm9Q) 2:55:51
 - [ ] [Introdução Xamarin.Forms (2020) - LIVE DE REVISÃO](https://www.youtube.com/watch?v=3xQmP7QvnIg) 1:37:30
