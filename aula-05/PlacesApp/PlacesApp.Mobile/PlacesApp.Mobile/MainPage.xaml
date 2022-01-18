@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PlacesApp.Mobile.MainPage"
+             xmlns:constants="clr-namespace:PlacesApp.Mobile.Constants"
              Padding="0,50,0,0">
 
     <StackLayout Margin="26,0" >
@@ -13,15 +14,15 @@
                 <Image
                     Aspect="AspectFill" 
                     Source="https://picsum.photos/640/480/"/>
-                <BoxView 
-                    CornerRadius="10"
+                <Label 
                     Margin="0,16,16,0"
-                    BackgroundColor="Red"
-                    VerticalOptions="Start"
+                    FontFamily="{x:Static constants:FontAwesomeFreeSolid.Name}"
+                    FontSize="24"
                     HorizontalOptions="End"
-                    HeightRequest="20" 
-                    WidthRequest="20">
-                </BoxView>
+                    Text="{x:Static constants:FontAwesomeFreeSolid.CheckCircle}"
+                    TextColor="White"
+                    VerticalOptions="Start">
+                </Label>
             </Grid>
         </Frame>
         <Grid 

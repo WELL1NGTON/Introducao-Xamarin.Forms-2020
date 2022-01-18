@@ -1,7 +1,9 @@
 ﻿namespace PlacesApp.Mobile.Constants;
 
-internal static class FontAwesomeFreeSolid
+public static class FontAwesomeFreeSolid
 {
+    public const string Name = nameof(FontAwesomeFreeSolid);
+
     public const string CheckCircle = "\uf058";
 }
 

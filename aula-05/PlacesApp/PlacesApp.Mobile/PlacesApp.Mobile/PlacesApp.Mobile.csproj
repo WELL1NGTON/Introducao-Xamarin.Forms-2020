@@ -12,6 +12,18 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <None Remove="Resources\Fonts\fa-brands-regular-400.otf" />
+      <None Remove="Resources\Fonts\fa-free-regular-400.otf" />
+      <None Remove="Resources\Fonts\fa-free-solid-900.otf" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Include="Resources\Fonts\fa-brands-regular-400.otf" />
+      <EmbeddedResource Include="Resources\Fonts\fa-free-regular-400.otf" />
+      <EmbeddedResource Include="Resources\Fonts\fa-free-solid-900.otf" />
+    </ItemGroup>
+
+    <ItemGroup>
         <PackageReference Include="Xamarin.Forms" Version="5.0.0.2291" />
         <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
     </ItemGroup>

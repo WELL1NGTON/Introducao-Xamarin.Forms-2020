@@ -1,5 +1,6 @@
 ﻿namespace PlacesApp.Mobile;
 
-internal static class FontAwesomeBrandsRegular
+public static class FontAwesomeBrandsRegular
 {
+    public const string Name = nameof(FontAwesomeBrandsRegular);
 }
