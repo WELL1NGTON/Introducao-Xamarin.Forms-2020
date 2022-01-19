@@ -7,9 +7,9 @@
 
     <StackLayout Margin="26,0" >
         <Frame 
-            Padding="0" 
             CornerRadius="10"
-            HeightRequest="250" >
+            HeightRequest="250"
+            Padding="0" >
             <Grid>
                 <Image
                     Aspect="AspectFill" 
@@ -34,16 +34,16 @@
             </Grid.ColumnDefinitions>
 
             <StackLayout 
-                VerticalOptions="Center"
-                Grid.Column="0">
+                Grid.Column="0"
+                VerticalOptions="Center">
                 <Label Text="Ocean at Algarve"/>
                 <Label Text="Enjoy view over sky blue ocean from your room" LineBreakMode="TailTruncation"/>
             </StackLayout>
             <Frame 
                 Grid.Column="1" 
-                VerticalOptions="Center"
-                Padding="0" 
                 HeightRequest="50" 
+                Padding="0" 
+                VerticalOptions="Center"
                 WidthRequest="10" >
                 <StackLayout Spacing="0" VerticalOptions="Center" >
                     <Label HorizontalOptions="Center" Text="18" />
