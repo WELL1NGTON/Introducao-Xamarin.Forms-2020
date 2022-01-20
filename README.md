@@ -10,7 +10,7 @@ Treinamento completo e GRATUITO - Introdução Xamarin.Forms - 2020
 
 Este treinamento tem como objetivo apresentar a tecnologia Xamarin e focando no desenvolvimento com Xamarin.Forms.
 
-Aula 1:
+### Aula 1
 
 1. O que é Xamarin?
 
@@ -24,7 +24,7 @@ Aula 1:
 
 Slides da aula: [https://www.slideshare.net/secret/wd1GU5bsXi5I62](https://www.slideshare.net/secret/wd1GU5bsXi5I62)
 
-Aula 2:
+### Aula 2
 
 1. MVVM
    1. Introdução
@@ -34,7 +34,7 @@ Aula 2:
     1. Conversão do aplicativo Busca CEP para MVVM
     2. Novos recursos no aplicativo Busca CEP
 
-Aula 3:
+### Aula 3
 
 1. DependencyService (Platform Specific “parts”)
     1. Acessando recursos específicos de cada plataforma através de Injeção de Dependência
@@ -45,16 +45,27 @@ Aula 3:
     2. Implementação de serviço de navegação entre interfaces, e;
     3. Navegação usando MvvM;
 
-Aula 4:
+### Aula 4
 
 Nesta aula daremos continuidade aos estudos sobre navegação, mas dessa vez será apresentado o Shell e será AO VIVO!!!
 Também irá contar com a "presença" ilustre de Pedro Jesus, grande amigo e contribuinte ativo do projeto Xamarin.Forms.
 
-Aula 5:
+### Aula 5
 
 Nesta live estaremos EU, Pedro Jesus e o mago do design com Xamarin.Forms Ione Souza falando sobre construção de interfaces!!!
 Também será apresentada a implementação do projeto modelo "PlacesApp"!
-Claro, um bate-papo descontraído, aberto a perguntas dos "presentes"...
+
+### Aula 7
+
+Nesta live vou retomar a construção do "PlacesApp" DO ZERO para refrescar a memória do pessoal sobre construção de interfaces!!!
+
+### Aula 8
+
+Nesta live darei continuidade a construção do "PlacesApp", nosso projeto que está sendo construído DO ZERO!!!
+
+### Aula 9
+
+Nesta live darei continuidade a construção do "PlacesApp", nosso projeto que está sendo construído DO ZERO!!!
 
 ### Repositório do Projeto Base
 
@@ -81,5 +92,6 @@ Claro, um bate-papo descontraído, aberto a perguntas dos "presentes"...
 - [x] [Introdução Xamarin.Forms (2020) - Aula 4 - Live](https://www.youtube.com/watch?v=Rl6ILxMnX4o) 1:41:21
 - [x] [Introdução Xamarin.Forms (2020) - Aula 5 - Live](https://www.youtube.com/watch?v=ESHrmDyvm9Q) 2:55:51
 - [x] [Introdução Xamarin.Forms (2020) - LIVE DE REVISÃO](https://www.youtube.com/watch?v=3xQmP7QvnIg) 1:37:30
-- [ ] [Introdução Xamarin.Forms (2020) - Aula 7](https://www.youtube.com/watch?v=7DY6cEw2zCc) 2:03:20
+- [x] [Introdução Xamarin.Forms (2020) - Aula 7](https://www.youtube.com/watch?v=7DY6cEw2zCc) 2:03:20
 - [ ] [Introdução Xamarin.Forms (2020) - Aula 8](https://www.youtube.com/watch?v=qKgELF7wRWE) 1:37:07
+- [ ] [Introdução Xamarin.Forms (2020) - Aula 9](https://www.youtube.com/watch?v=C9pPE1O7YEk) 1:43:40
