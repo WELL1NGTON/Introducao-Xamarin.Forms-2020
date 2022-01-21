@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="PlacesApp.Mobile.Sections.Locations.LocationCategoryTabItemView">
+    <ContentView.Content>
+        <StackLayout>
+
+            <Label
+                FontSize="Small"
+                Margin="5,0"
+                Text="Destaques" />
+
+            <StackLayout
+                BackgroundColor="Black"
+                HeightRequest="2"
+                VerticalOptions="End">
+
+            </StackLayout>
+
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>
