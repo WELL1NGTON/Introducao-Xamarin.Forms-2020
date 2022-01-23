@@ -94,4 +94,4 @@ Nesta live darei continuidade a construção do "PlacesApp", nosso projeto que e
 - [x] [Introdução Xamarin.Forms (2020) - LIVE DE REVISÃO](https://www.youtube.com/watch?v=3xQmP7QvnIg) 1:37:30
 - [x] [Introdução Xamarin.Forms (2020) - Aula 7](https://www.youtube.com/watch?v=7DY6cEw2zCc) 2:03:20
 - [x] [Introdução Xamarin.Forms (2020) - Aula 8](https://www.youtube.com/watch?v=qKgELF7wRWE) 1:37:07
-- [ ] [Introdução Xamarin.Forms (2020) - Aula 9](https://www.youtube.com/watch?v=C9pPE1O7YEk) 1:43:40
+- [x] [Introdução Xamarin.Forms (2020) - Aula 9](https://www.youtube.com/watch?v=C9pPE1O7YEk) 1:43:40

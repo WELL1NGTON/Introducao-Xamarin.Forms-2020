@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="PlacesApp.Mobile.Sections.Locations.LocationsPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:PlacesApp.Mobile.Views"
+    xmlns:locations="clr-namespace:PlacesApp.Mobile.Sections.Locations"
+    NavigationPage.HasNavigationBar="False">
+
+    <ContentPage.Content>
+        <Grid
+            ColumnDefinitions="Auto,Auto,Auto,Auto,*,Auto"
+            Margin="0"
+            Padding="0"
+            ColumnSpacing="0"
+            RowDefinitions="Auto,Auto,2,*"
+            RowSpacing="0">
+
+            <views:NavigationBar
+                Grid.Column="0"
+                Grid.ColumnSpan="6"
+                Grid.Row="0" />
+
+            <locations:LocationFilterView
+                Grid.Column="0"
+                Grid.Row="1"
+                LocationFilter="Todos"
+                NormalColor="Transparent"
+                SelectedColor="#000000"
+                SelectedFilter="{Binding SelectedFilter}" />
+            <!--SelectedCommand="{Binding ChangedFilterCommand}" />-->
+
+            <locations:LocationFilterView
+                Grid.Column="1"
+                Grid.Row="1"
+                LocationFilter="Destaques"
+                NormalColor="Transparent"
+                SelectedColor="#000000"
+                SelectedFilter="{Binding SelectedFilter}" />
+            <!--SelectedCommand="{Binding ChangedFilterCommand}" />-->
+
+            <locations:LocationFilterView
+                Grid.Column="2"
+                Grid.Row="1"
+                LocationFilter="Populares"
+                NormalColor="Transparent"
+                SelectedColor="#000000"
+                SelectedFilter="{Binding SelectedFilter}" />
+            <!--SelectedCommand="{Binding ChangedFilterCommand}" />-->
+
+            <locations:LocationFilterView
+                Grid.Column="3"
+                Grid.Row="1"
+                LocationFilter="Trending"
+                NormalColor="Transparent"
+                SelectedColor="#000000"
+                SelectedFilter="{Binding SelectedFilter}" />
+            <!--SelectedCommand="{Binding ChangedFilterCommand}" />-->
+
+            <StackLayout
+                BackgroundColor="#33000000"
+                Grid.Column="0"
+                Grid.ColumnSpan="6"
+                Grid.Row="2"
+                Margin="0,1,0,0" />
+
+            <ListView
+                x:Name="MyListView"
+                CachingStrategy="RecycleElement"
+                SeparatorColor="Transparent"
+                Grid.Column="0"
+                Grid.ColumnSpan="6"
+                Grid.Row="3"
+                HasUnevenRows="True"
+                ItemsSource="{Binding Locations}"
+                ItemTapped="Handle_ItemTapped">
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <locations:LocationItemView />
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
