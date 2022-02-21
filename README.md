@@ -10,6 +10,10 @@ Treinamento completo e GRATUITO - Introdução Xamarin.Forms - 2020
 
 Este treinamento tem como objetivo apresentar a tecnologia Xamarin e focando no desenvolvimento com Xamarin.Forms.
 
+## Certificado de Conclusão Jefferson Balivo
+
+![Certificado Jefferson Balivo](images/certificado.jpg)
+
 ### Aula 1
 
 1. O que é Xamarin?
